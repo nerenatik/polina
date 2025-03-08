@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>С 8 Марта! 💃</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff6b6b, #ff8e8e, #ffaaa5);
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+            text-align: center;
+            padding: 40px;
+            min-height: 100vh;
+            color: #fff;
+            animation: gradient-pulse 8s infinite alternate;
+        }
+
+        @keyframes gradient-pulse {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 20px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 0 30px rgba(255, 105, 180, 0.3);
+        }
+
+        .photo-container {
+            max-width: 500px;
+            margin: 20px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+            border: 3px solid #fff;
+        }
+
+        .photo-container:hover {
+            transform: scale(1.03);
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .dance-emoji {
+            font-size: 40px;
+            animation: dance 2s infinite;
+        }
+
+        @keyframes dance {
+            0%, 100% { transform: translateY(0) rotate(0); }
+            50% { transform: translateY(-20px) rotate(10deg); }
+        }
+
+        .message {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo-container">
+            <!-- Замените ссылку ниже на свою фотографию -->
+            <img src="photo_2024-08-05_01-07-30.jpg" alt="Самая стильная">
+        </div>
+
+        <h1>💃 С 8 Марта, Прекрасная! 💃</h1>
+        
+        <div class="message">
+            <p>
+                "Ты - ритм самого красивого танца жизни!<br>
+                Пусть каждый твой день будет наполнен:<br>
+                🎶 Музыкой успеха<br>
+                💃 Гармонией счастья<br>
+                💖 Любовью и вдохновением!"
+            </p>
+            <div class="dance-emoji">💃🎶✨</div>
+        </div>
+
+        <div style="margin: 40px 0;">
+            <iframe style="border-radius:12px" 
+                    src="https://open.spotify.com/embed/track/3sslYZcFKtUvIEWN9lADgr?utm_source=generator" 
+                    width="100%" 
+                    height="352" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
